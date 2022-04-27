@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Mídias em HTML</title>
+</head>
+<body style="background-color: rgb(178, 181, 204);">
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua  o tamanho do seu navegador. </p>
+
+    <picture>
+        <source media="(max-width: 700px" srcset="imagens/busto-rabiscado-p.jpeg" type="image/JPEG">
+        <source media="(max-width: 1000px)" srcset="imagens/busto-rabiscado-m.jpeg" type="image/JPEG">
+        <img src="imagens/busto-rabiscado-g.jpeg" alt="imagem flexivel">
+    </picture>
+<h1>Reproduzindo Audio</h1>
+<p>Vamos aprender a reproduzir audios em HTML5.</p>
+<audio preload="metadata" controls loop>
+    <source src="midia/Space Age Hustle - Squadda B.mp3" type="audio/mpeg">
+    <p>infelizmente seu navegador náo consegue reproduzir audio. </p>
+</audio>
+<h2>Escolha:</h2>
+<ul>
+    <li>Acessar a <a href="page002.html" rel="next">área verde</a></li>
+    <li>Acessar a <a href="noticias/pag003.html">área amarela</a></li>
+</ul>    
+</body>
+</html>
