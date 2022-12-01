@@ -339,6 +339,16 @@ img {
   border-radius: .5rem;
   font-weight: var(--font-medium);
 }
+
+.button:hover{
+  background-color: var(--first-color);
+}
+
+.button__icon{
+  font-size: 1.25rem;
+  margin-left: var(--mb-0-25);
+  transition: .3s;
+}
 /*==================== ABOUT ====================*/
 
 
