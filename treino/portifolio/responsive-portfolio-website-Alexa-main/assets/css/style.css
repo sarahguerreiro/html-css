@@ -303,7 +303,7 @@ img {
 }
 
 .home__scroll{
-  /*display: none;*/
+  display: none;
 }
 
 .home__scroll-button{
@@ -350,7 +350,7 @@ img {
   transition: .3s;
 }
 
-.button-flex{
+.button--flex{
   display: inline-flex;
   align-items: center;
 }
