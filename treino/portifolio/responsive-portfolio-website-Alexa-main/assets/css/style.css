@@ -447,6 +447,7 @@ img {
   height: 5px;
   border-radius: .25rem;
 }
+
 .skills__bar{
   background-color: var(--first-color-lighter);
 }
