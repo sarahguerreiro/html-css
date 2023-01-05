@@ -678,6 +678,11 @@ img {
   color: var(--first-color);
   cursor: pointer;
 }
+
+.services__modal-icon{
+  color: var(--first-color);
+  margin-right: var(--mb-0-25);
+}
 /* Active Modal */
 
 
