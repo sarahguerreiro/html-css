@@ -752,7 +752,9 @@ img {
   outline: none;
 }
 /*==================== PROJECT IN MIND ====================*/
-
+.project{
+  text-align: center;
+}
 
 /*==================== TESTIMONIAL ====================*/
 
