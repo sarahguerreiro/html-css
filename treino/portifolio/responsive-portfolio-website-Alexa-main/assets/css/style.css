@@ -822,7 +822,9 @@ img {
   margin-bottom: var(--mb-2-5);
 }
 
-
+.testimonial__icon-star{
+  color: var(--first-color);
+}
 /*==================== CONTACT ME ====================*/
 
 
