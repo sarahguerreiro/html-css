@@ -817,6 +817,12 @@ img {
   color: var(--text-color-light);
 }
 
+
+.testimonial__description{
+  margin-bottom: var(--mb-2-5);
+}
+
+
 /*==================== CONTACT ME ====================*/
 
 
