@@ -350,6 +350,11 @@ img {
   transition: .3s;
 }
 
+.button--white{
+  background-color: #fff;
+  color: var(--first-color);
+}
+
 .button--flex{
   display: inline-flex;
   align-items: center;
