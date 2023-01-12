@@ -807,6 +807,16 @@ img {
   margin-right: var(--mb-0-75);
 }
 
+.testimonial__name{
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+}
+
+.testimonial__client{
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+
 /*==================== CONTACT ME ====================*/
 
 
