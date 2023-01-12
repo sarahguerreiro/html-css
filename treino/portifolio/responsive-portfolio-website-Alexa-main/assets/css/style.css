@@ -756,6 +756,16 @@ img {
   text-align: center;
 }
 
+.project__bg{
+  background-color: var(--first-color-second);
+  padding-top: 3rem;
+}
+
+.project__title{
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-1-5);
+}
+
 /*==================== TESTIMONIAL ====================*/
 
 
