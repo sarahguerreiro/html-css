@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Berkshire+Swash&family=Poppins:wght@400;500;600&display=swap');
 
+
 :root {
     --header-height: 3rem;
 
@@ -731,7 +732,7 @@ img {
 
 .swiper-button-prev::after,
 .swiper-button-next::after{
-  content: '';
+  content:'';
 }
 
 .swiper-portfolio-icon{
@@ -747,7 +748,7 @@ img {
   right: -.5rem;
 }
 
-.swiper-container-horizontal > .swiper-pagination-bullets{
+.swiper-horizontal > .swiper-pagination-bullets{
   bottom: -2.5rem;
 }
 
