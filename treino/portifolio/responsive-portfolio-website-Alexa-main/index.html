@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-
-  
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8 swiper-bundle.min.css"/> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
   <title>Portfólio agora vai</title>
 </head>
 <body>
@@ -609,10 +608,10 @@
             <h2 class="section__title">Portfólio</h2>
             <span class="section__subtitle">Trabalhos mais recentes</span>
             
-            <div class="portfolio__container container">
-                <div class="">
+            <div class="portfolio__container container swiper mySwiper">
+                <div class="swiper-wrapper">
                     <!--========== PORTFOLIO 1 ============-->
-                    <div class="portfolio__content grid">
+                    <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
                         
                         <div class="portfolio__data">
@@ -626,7 +625,7 @@
                     </div>
 
                     <!--========== PORTFOLIO 2 ============-->
-                    <div class="portfolio__content grid">
+                    <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
@@ -640,7 +639,7 @@
                     </div>
                     
                     <!--========== PORTFOLIO 3 ============-->
-                    <div class="portfolio__content grid">
+                    <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
                         
                         <div class="portfolio__data">
@@ -654,9 +653,17 @@
                     </div>
                 </div>
                 <!-- Add Arrows -->
-                
-                <!-- Add Pagination -->
+                <div class="swiper-button-prev">
 
+                </div>
+
+                <div class="swiper-button-next">
+
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination">
+
+                </div>
         </section>
         
         <!--============= PROJECT IN MIND ===========-->
@@ -781,12 +788,12 @@
     
     
     <!--==================== SWIPER JS ====================-->
-    <script src="assets/js/main.js">
-
-    </script>  
-    
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js">
+    </script>
+    <script src="assets/js/swiper-bundle.min.js">
+    </script>
 
     <!--==================== MAIN JS ====================-->
-    <script src=""></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
