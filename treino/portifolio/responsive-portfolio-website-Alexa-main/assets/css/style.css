@@ -734,6 +734,11 @@ img {
 }
 
 
+.swiper-button-prev::after,
+.swiper-button-next::after{
+
+  content: '';
+}
 /*==================== PROJECT IN MIND ====================*/
 .project{
   text-align: center;
