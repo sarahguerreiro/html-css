@@ -730,13 +730,12 @@ img {
 }
 
 .portfolio__button:hover .button__icon{
-  transform: translateX(.25rem);
+  transform: translateX(0.25rem);
 }
-
 
 .swiper-button-prev::after,
 .swiper-button-next::after{
-  content:'';
+  content: '';
 }
 
 .swiper-portfolio-icon{
@@ -760,9 +759,12 @@ img {
   background-color: var(--first-color);
 }
 
- 
-/*========
-============ PROJECT IN MIND ====================*/
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination-bullet{
+  outline: none;
+}
+/*========  PROJECT IN MIND   ==========*/
 .project{
   text-align: center;
 }
