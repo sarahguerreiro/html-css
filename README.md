@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="https://sarahguerreiro.github.io/html-css/exercicios/ex001/index2.html">Executar o exercício 001</a>
+<a href="file:///D:/documentos/estudos-curso_em_video/html-css/treino/portifolio/responsive-portfolio-website-Alexa-main/index.html">Acesse meu site de portfólio - Em construção -</a>
